@@ -1,0 +1,24 @@
+/* nav {
+    background-color: #f4f1eb;
+    box-shadow: 10px 5px 5px gray;
+} */
+
+/* body {
+    background-color: #f4f1eb;
+} */
+
+#about-me, #projects {
+    background-color: #f4f1eb;
+    box-shadow: 0px 6px 15px rgba(120, 110, 100, 0.5);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#tech-stack {
+    background-color: white;
+    box-shadow: 0px 6px 15px rgba(120, 110, 100, 0.5);
+}
+
+footer {
+    background-color: white;
+}

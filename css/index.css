@@ -65,7 +65,11 @@ body {
 }
 
 #about-me {
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    overflow: hidden; /* prevents scrolling issues */
 }
 
 #about-me .container {

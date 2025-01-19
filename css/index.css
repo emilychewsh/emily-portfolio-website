@@ -107,7 +107,20 @@ body {
 }
 
 
-
+/* Footer Section */
 footer {
     background-color: #f3ede5;
+    height: 200px;
+}
+
+.bi {
+    color: black;
+}
+
+
+/* Media queries */
+@media (max-width: 768px) {
+    .project-image {
+        display: none;
+    }
 }

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ag.show()
 
     const contact = document.querySelector('#contact-highlight')
-    const underlineContact = annotate(contact, {type: 'underline', color: '#f7d1d0'})
+    const underlineContact = annotate(contact, {type: 'underline', color: 'black'})
 
     function contactHighlight () {
         underlineContact.hide()

@@ -100,6 +100,22 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
+
+.skill-tag {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card .btn {
+    width: 40px;
+    min-width: 120px;
+}
+
 footer {
     background-color: #f3ede5;
 }

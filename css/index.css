@@ -2,12 +2,6 @@ body {
     font-family: "Hanken Grotesk", serif;
 }
 
-/* Navigation section */
-/* nav {
-    background-color: #f4f1eb;
-    box-shadow: 10px 5px 5px gray;
-} */
-
 /* Title Section */
 #title {
     display: flex;
@@ -54,7 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    overflow: hidden; /* prevents scrolling issues */
+    overflow: hidden; 
 }
 
 #about-me .container {
@@ -67,11 +61,6 @@ body {
     background-color: #f8f9fa;
     padding: 50px 0;
 }
-
-/* #about-me, #projects {
-    padding: 50px 0;
-} */
-
 
 /* Skills Section */
 #skills {
@@ -111,10 +100,16 @@ body {
 footer {
     background-color: #f3ede5;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
 .bi {
     color: black;
+    font-size: 1.5rem;
 }
 
 
@@ -122,5 +117,48 @@ footer {
 @media (max-width: 768px) {
     .project-image {
         display: none;
+    }
+
+    #title h1 {
+        font-size: 5rem;
+    }
+
+    #title h4 {
+        font-size: 2rem;
+    }
+
+    #about-me {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .box {
+        padding: 8px;
+        margin: 8px;
+    }
+
+    .about-image img {
+        width: 200px;
+    }
+
+    .skill-tag {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        height: auto; 
+        padding: 20px;
+    }
+
+    footer .bi {
+        font-size: 1.2rem; 
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+        .box {
+            padding: 12px;
+            margin: 12px;
+        }
     }
 }

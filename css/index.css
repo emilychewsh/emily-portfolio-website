@@ -115,50 +115,54 @@ footer {
 
 /* Media queries */
 @media (max-width: 768px) {
-    .project-image {
-        display: none;
-    }
+.project-image {
+    display: none;
+}
 
-    #title h1 {
-        font-size: 5rem;
-    }
+#title h1 {
+    font-size: 5rem;
+}
 
-    #title h4 {
-        font-size: 2rem;
-    }
+#title h4 {
+    font-size: 2rem;
+}
 
-    #about-me {
-        flex-direction: column;
-        padding: 20px;
-    }
+#about-me {
+    flex-direction: column;
+    padding: 20px;
+}
 
+.box {
+    padding: 8px;
+    margin: 8px;
+}
+
+.about-image img {
+    width: 200px;
+}
+
+.skill-tag {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: auto; 
+    padding: 20px;
+}
+
+footer .bi {
+    font-size: 1.2rem; 
+}
+
+#software-engineer, #problem-solving, #bootcamp, #web-apps, #new-tech, #refining-skills, #contact-highlight {
+    display: none !important;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
     .box {
-        padding: 8px;
-        margin: 8px;
+        padding: 12px;
+        margin: 12px;
     }
-
-    .about-image img {
-        width: 200px;
-    }
-
-    .skill-tag {
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    footer {
-        height: auto; 
-        padding: 20px;
-    }
-
-    footer .bi {
-        font-size: 1.2rem; 
-    }
-
-    @media (min-width: 769px) and (max-width: 992px) {
-        .box {
-            padding: 12px;
-            margin: 12px;
-        }
-    }
+}
 }

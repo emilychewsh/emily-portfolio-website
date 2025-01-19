@@ -25,7 +25,7 @@ body {
     align-items: center;
     height: 80vh;
     text-align: center;
-    background-color: #f4f1eb;
+    background-color: #f3ede5;
 }
 
 #title h1 {
@@ -88,7 +88,7 @@ body {
 } */
 
 #skills {
-    background-color: #f4f1eb;
+    background-color: #f3ede5;
     box-shadow: 0px 6px 15px rgba(120, 110, 100, 0.5);
 }
 
@@ -101,5 +101,5 @@ body {
 }
 
 footer {
-    background-color: #f4f1eb;
+    background-color: #f3ede5;
 }

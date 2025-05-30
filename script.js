@@ -2,14 +2,16 @@ import { annotate, annotationGroup} from 'https://unpkg.com/rough-notation?modul
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    if (window.innerWidth <= 768) {
+        return;
+    }
+
     const name = document.querySelector('#name');
     const a1 = annotate(name, { type: 'highlight', color: '#f7d1d0' });
 
     function highlightName() {
-        if (window.innerWidth > 768) {
             a1.show();
             setTimeout(() => a1.hide(), 3000);
-        }
     }
 
     highlightName();

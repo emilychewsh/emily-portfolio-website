@@ -155,9 +155,9 @@ footer .bi {
     font-size: 1.2rem; 
 }
 
-#software-engineer, #problem-solving, #bootcamp, #web-apps, #new-tech, #refining-skills, #contact-highlight {
+/* #software-engineer, #problem-solving, #bootcamp, #web-apps, #new-tech, #refining-skills, #contact-highlight {
     display: none !important;
-}
+} */
 
 @media (min-width: 769px) and (max-width: 992px) {
     .box {
@@ -166,3 +166,10 @@ footer .bi {
     }
 }
 }
+
+@media (max-width: 768px) {
+    .annotated {
+      text-decoration: none;
+      background: none;
+    }
+  }
